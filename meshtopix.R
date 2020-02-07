@@ -5,6 +5,7 @@
 #for a function, not sure where to put library requirements but here I will put them outside the function def
 
 library(XML)
+library(rentrez)
 
 meshtopix <- function (pmidlist) {
   
