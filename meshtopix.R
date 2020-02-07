@@ -2,12 +2,10 @@
 #package. It is a heinous crime against nature but it works and that is the beginning of all
 #beautiful things.
 
-###INPUT###
-#For this script, a fetch item is used for simplicity.
-#To scale code up, we should be able to feed a vector of PMIDs to the below code and
-#run it to get information on every article with mesh info from pubmed.
-#If the current code uses a fetch option, we should be able to integrate this into that f(x)
-#and run it as part of the series
+#for a function, not sure where to put library requirements but here I will put them outside the function def
+
+library(XML)
+
 meshtopix <- function (pmidlist) {
   
   #Query PMID in list of pmids provided to meshtopix function
